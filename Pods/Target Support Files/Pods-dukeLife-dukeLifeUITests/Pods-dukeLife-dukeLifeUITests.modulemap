@@ -1,0 +1,6 @@
+framework module Pods_dukeLife_dukeLifeUITests {
+  umbrella header "Pods-dukeLife-dukeLifeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
