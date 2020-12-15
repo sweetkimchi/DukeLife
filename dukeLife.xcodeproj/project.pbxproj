@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		192A7D99255238BB0083309D /* guestImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A7D98255238BB0083309D /* guestImageCollectionViewController.swift */; };
+		1935C3DF25433D09003A8EA4 /* studentLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3DE25433D09003A8EA4 /* studentLogInViewController.swift */; };
+		1935C3E425433D17003A8EA4 /* guestLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3E325433D17003A8EA4 /* guestLogInViewController.swift */; };
+		1935C3E925433D24003A8EA4 /* studentSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3E825433D24003A8EA4 /* studentSignUpViewController.swift */; };
+		1935C3EE25433D2F003A8EA4 /* guestSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3ED25433D2F003A8EA4 /* guestSignUpViewController.swift */; };
+		1935C3F32543442C003A8EA4 /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3F22543442C003A8EA4 /* launchViewController.swift */; };
+		1935C3F8254346ED003A8EA4 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3F7254346ED003A8EA4 /* Place.swift */; };
+		1935C3FD2543477C003A8EA4 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3FC2543477C003A8EA4 /* Coordinates.swift */; };
+		1935C402254347BB003A8EA4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C401254347BB003A8EA4 /* Address.swift */; };
+		1935C49B254382FE003A8EA4 /* placeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C49A254382FE003A8EA4 /* placeTableViewCell.swift */; };
+		1935C4A5254389D7003A8EA4 /* studentMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C4A4254389D7003A8EA4 /* studentMapViewController.swift */; };
+		1935C4B02543BAD6003A8EA4 /* studentPlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C4AF2543BAD6003A8EA4 /* studentPlaceDetailViewController.swift */; };
+		19453D83255A253A00130517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19453D82255A253A00130517 /* GoogleService-Info.plist */; };
+		19578D85255CAD67003F1152 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19578D84255CAD67003F1152 /* ScrollViewController.swift */; };
+		19578D8A255CB02F003F1152 /* navigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19578D89255CB02F003F1152 /* navigationViewController.swift */; };
+		195C11902549F93700DBAF49 /* studentImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C118F2549F93700DBAF49 /* studentImageCollectionViewController.swift */; };
+		196E153D254732A8009EA3AB /* guestProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196E153C254732A8009EA3AB /* guestProfileViewController.swift */; };
+		196E1542254732B5009EA3AB /* guestPlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196E1541254732B5009EA3AB /* guestPlaceDetailViewController.swift */; };
+		196E1547254732CF009EA3AB /* guestMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196E1546254732CF009EA3AB /* guestMapViewController.swift */; };
+		19A868F625363EA000F92B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A868F525363EA000F92B03 /* AppDelegate.swift */; };
+		19A868F825363EA000F92B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A868F725363EA000F92B03 /* SceneDelegate.swift */; };
+		19A868FA25363EA000F92B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A868F925363EA000F92B03 /* ViewController.swift */; };
+		19A868FD25363EA000F92B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A868FB25363EA000F92B03 /* Main.storyboard */; };
+		19A868FF25363EA100F92B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A868FE25363EA100F92B03 /* Assets.xcassets */; };
+		19A8690225363EA100F92B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A8690025363EA100F92B03 /* LaunchScreen.storyboard */; };
+		19A8690D25363EA100F92B03 /* dukeLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8690C25363EA100F92B03 /* dukeLifeTests.swift */; };
+		19A8691825363EA100F92B03 /* dukeLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8691725363EA100F92B03 /* dukeLifeUITests.swift */; };
+		19C81BBB2545FF200016E6C2 /* commentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C81BBA2545FF200016E6C2 /* commentTableViewCell.swift */; };
+		19C81BC02545FFE80016E6C2 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C81BBF2545FFE80016E6C2 /* Comment.swift */; };
+		19C81BCB254605A50016E6C2 /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C81BCA254605A50016E6C2 /* userProfileViewController.swift */; };
+		19C81BD62546205C0016E6C2 /* studentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C81BD52546205C0016E6C2 /* studentProfileViewController.swift */; };
+		19DFE5DA255C6A950005CB82 /* addPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFE5D9255C6A950005CB82 /* addPlaceTableViewCell.swift */; };
+		19EB0E2C25549781007F4865 /* addPlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB0E2B25549781007F4865 /* addPlaceTableViewController.swift */; };
+		19EB0E362554A122007F4865 /* addDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB0E352554A122007F4865 /* addDetailViewController.swift */; };
+		1ACD6B7BD031D90E181AAAA7 /* Pods_dukeLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90874FA06C4120B603BAFF5F /* Pods_dukeLifeTests.framework */; };
+		45CAC13B5CE6E72E1FB8DCC1 /* Pods_dukeLife_dukeLifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928465E209C0E9E560633BEF /* Pods_dukeLife_dukeLifeUITests.framework */; };
+		AC549F0825510D700027D883 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC549F0725510D700027D883 /* CollectionViewCell.swift */; };
+		E6843F1936BB2B99C7FBCC42 /* Pods_dukeLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8035FCC82DB8E015710D37 /* Pods_dukeLife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A8690925363EA100F92B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A868EA25363EA000F92B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A868F125363EA000F92B03;
+			remoteInfo = dukeLife;
+		};
+		19A8691425363EA100F92B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A868EA25363EA000F92B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A868F125363EA000F92B03;
+			remoteInfo = dukeLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		192A7D98255238BB0083309D /* guestImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestImageCollectionViewController.swift; sourceTree = "<group>"; };
+		1935C3DE25433D09003A8EA4 /* studentLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentLogInViewController.swift; sourceTree = "<group>"; };
+		1935C3E325433D17003A8EA4 /* guestLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestLogInViewController.swift; sourceTree = "<group>"; };
+		1935C3E825433D24003A8EA4 /* studentSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentSignUpViewController.swift; sourceTree = "<group>"; };
+		1935C3ED25433D2F003A8EA4 /* guestSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestSignUpViewController.swift; sourceTree = "<group>"; };
+		1935C3F22543442C003A8EA4 /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
+		1935C3F7254346ED003A8EA4 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		1935C3FC2543477C003A8EA4 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		1935C401254347BB003A8EA4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		1935C49A254382FE003A8EA4 /* placeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeTableViewCell.swift; sourceTree = "<group>"; };
+		1935C4A4254389D7003A8EA4 /* studentMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentMapViewController.swift; sourceTree = "<group>"; };
+		1935C4AF2543BAD6003A8EA4 /* studentPlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentPlaceDetailViewController.swift; sourceTree = "<group>"; };
+		19453D82255A253A00130517 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19578D84255CAD67003F1152 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		19578D89255CB02F003F1152 /* navigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationViewController.swift; sourceTree = "<group>"; };
+		195C118F2549F93700DBAF49 /* studentImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentImageCollectionViewController.swift; sourceTree = "<group>"; };
+		196E153C254732A8009EA3AB /* guestProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestProfileViewController.swift; sourceTree = "<group>"; };
+		196E1541254732B5009EA3AB /* guestPlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestPlaceDetailViewController.swift; sourceTree = "<group>"; };
+		196E1546254732CF009EA3AB /* guestMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guestMapViewController.swift; sourceTree = "<group>"; };
+		19A868F225363EA000F92B03 /* dukeLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dukeLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A868F525363EA000F92B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19A868F725363EA000F92B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19A868F925363EA000F92B03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19A868FC25363EA000F92B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19A868FE25363EA100F92B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A8690125363EA100F92B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19A8690325363EA100F92B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A8690825363EA100F92B03 /* dukeLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dukeLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A8690C25363EA100F92B03 /* dukeLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dukeLifeTests.swift; sourceTree = "<group>"; };
+		19A8690E25363EA100F92B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A8691325363EA100F92B03 /* dukeLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dukeLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A8691725363EA100F92B03 /* dukeLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dukeLifeUITests.swift; sourceTree = "<group>"; };
+		19A8691925363EA100F92B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C81BBA2545FF200016E6C2 /* commentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentTableViewCell.swift; sourceTree = "<group>"; };
+		19C81BBF2545FFE80016E6C2 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		19C81BCA254605A50016E6C2 /* userProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		19C81BD52546205C0016E6C2 /* studentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentProfileViewController.swift; sourceTree = "<group>"; };
+		19DFE5D9255C6A950005CB82 /* addPlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		19EB0E2B25549781007F4865 /* addPlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPlaceTableViewController.swift; sourceTree = "<group>"; };
+		19EB0E352554A122007F4865 /* addDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDetailViewController.swift; sourceTree = "<group>"; };
+		2C8035FCC82DB8E015710D37 /* Pods_dukeLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dukeLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430AC6642EE2EC0CD97443F8 /* Pods-dukeLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukeLifeTests.debug.xcconfig"; path = "Target Support Files/Pods-dukeLifeTests/Pods-dukeLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69BEB218D402AEF2BCBCE99D /* Pods-dukeLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukeLife.debug.xcconfig"; path = "Target Support Files/Pods-dukeLife/Pods-dukeLife.debug.xcconfig"; sourceTree = "<group>"; };
+		8E82B020950DE4A6D4F6B6A2 /* Pods-dukeLife-dukeLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukeLife-dukeLifeUITests.debug.xcconfig"; path = "Target Support Files/Pods-dukeLife-dukeLifeUITests/Pods-dukeLife-dukeLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90874FA06C4120B603BAFF5F /* Pods_dukeLifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dukeLifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928465E209C0E9E560633BEF /* Pods_dukeLife_dukeLifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dukeLife_dukeLifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC549F0725510D700027D883 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AF58592D4D783B4BDCA53C7F /* Pods-dukeLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukeLifeTests.release.xcconfig"; path = "Target Support Files/Pods-dukeLifeTests/Pods-dukeLifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE59D4B76501396AB1F1568 /* Pods-dukeLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukeLife.release.xcconfig"; path = "Target Support Files/Pods-dukeLife/Pods-dukeLife.release.xcconfig"; sourceTree = "<group>"; };
+		EF5791FEDBA45CFFD85B261E /* Pods-dukeLife-dukeLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukeLife-dukeLifeUITests.release.xcconfig"; path = "Target Support Files/Pods-dukeLife-dukeLifeUITests/Pods-dukeLife-dukeLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A868EF25363EA000F92B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6843F1936BB2B99C7FBCC42 /* Pods_dukeLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8690525363EA100F92B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACD6B7BD031D90E181AAAA7 /* Pods_dukeLifeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8691025363EA100F92B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAC13B5CE6E72E1FB8DCC1 /* Pods_dukeLife_dukeLifeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CA429369F618F57E106421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C8035FCC82DB8E015710D37 /* Pods_dukeLife.framework */,
+				928465E209C0E9E560633BEF /* Pods_dukeLife_dukeLifeUITests.framework */,
+				90874FA06C4120B603BAFF5F /* Pods_dukeLifeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		196E15332547317C009EA3AB /* Student View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19C81BCA254605A50016E6C2 /* userProfileViewController.swift */,
+				19C81BD52546205C0016E6C2 /* studentProfileViewController.swift */,
+				1935C4AF2543BAD6003A8EA4 /* studentPlaceDetailViewController.swift */,
+				195C118F2549F93700DBAF49 /* studentImageCollectionViewController.swift */,
+				1935C4A4254389D7003A8EA4 /* studentMapViewController.swift */,
+				AC549F0725510D700027D883 /* CollectionViewCell.swift */,
+				19EB0E2B25549781007F4865 /* addPlaceTableViewController.swift */,
+				19DFE5D9255C6A950005CB82 /* addPlaceTableViewCell.swift */,
+				19EB0E352554A122007F4865 /* addDetailViewController.swift */,
+				19578D89255CB02F003F1152 /* navigationViewController.swift */,
+			);
+			path = "Student View Controllers";
+			sourceTree = "<group>";
+		};
+		196E153725473202009EA3AB /* Log In View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1935C3DE25433D09003A8EA4 /* studentLogInViewController.swift */,
+				1935C3E325433D17003A8EA4 /* guestLogInViewController.swift */,
+			);
+			path = "Log In View Controllers";
+			sourceTree = "<group>";
+		};
+		196E153825473219009EA3AB /* Sign Up View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1935C3E825433D24003A8EA4 /* studentSignUpViewController.swift */,
+				1935C3ED25433D2F003A8EA4 /* guestSignUpViewController.swift */,
+			);
+			path = "Sign Up View Controllers";
+			sourceTree = "<group>";
+		};
+		196E154B254759CC009EA3AB /* Guest View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				196E153C254732A8009EA3AB /* guestProfileViewController.swift */,
+				196E1541254732B5009EA3AB /* guestPlaceDetailViewController.swift */,
+				192A7D98255238BB0083309D /* guestImageCollectionViewController.swift */,
+				196E1546254732CF009EA3AB /* guestMapViewController.swift */,
+			);
+			path = "Guest View Controllers";
+			sourceTree = "<group>";
+		};
+		19A868E925363EA000F92B03 = {
+			isa = PBXGroup;
+			children = (
+				19A868F425363EA000F92B03 /* dukeLife */,
+				19A8690B25363EA100F92B03 /* dukeLifeTests */,
+				19A8691625363EA100F92B03 /* dukeLifeUITests */,
+				19A868F325363EA000F92B03 /* Products */,
+				3C979EDF290D63C789AFA165 /* Pods */,
+				16CA429369F618F57E106421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19A868F325363EA000F92B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A868F225363EA000F92B03 /* dukeLife.app */,
+				19A8690825363EA100F92B03 /* dukeLifeTests.xctest */,
+				19A8691325363EA100F92B03 /* dukeLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A868F425363EA000F92B03 /* dukeLife */ = {
+			isa = PBXGroup;
+			children = (
+				196E154B254759CC009EA3AB /* Guest View Controllers */,
+				196E153825473219009EA3AB /* Sign Up View Controllers */,
+				196E153725473202009EA3AB /* Log In View Controllers */,
+				196E15332547317C009EA3AB /* Student View Controllers */,
+				19A868F525363EA000F92B03 /* AppDelegate.swift */,
+				1935C49A254382FE003A8EA4 /* placeTableViewCell.swift */,
+				19C81BBA2545FF200016E6C2 /* commentTableViewCell.swift */,
+				19A868F725363EA000F92B03 /* SceneDelegate.swift */,
+				19A868F925363EA000F92B03 /* ViewController.swift */,
+				19A868FB25363EA000F92B03 /* Main.storyboard */,
+				19578D84255CAD67003F1152 /* ScrollViewController.swift */,
+				1935C3F22543442C003A8EA4 /* launchViewController.swift */,
+				19C81BBF2545FFE80016E6C2 /* Comment.swift */,
+				1935C3F7254346ED003A8EA4 /* Place.swift */,
+				1935C3FC2543477C003A8EA4 /* Coordinates.swift */,
+				1935C401254347BB003A8EA4 /* Address.swift */,
+				19A868FE25363EA100F92B03 /* Assets.xcassets */,
+				19A8690025363EA100F92B03 /* LaunchScreen.storyboard */,
+				19A8690325363EA100F92B03 /* Info.plist */,
+				19453D82255A253A00130517 /* GoogleService-Info.plist */,
+			);
+			path = dukeLife;
+			sourceTree = "<group>";
+		};
+		19A8690B25363EA100F92B03 /* dukeLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				19A8690C25363EA100F92B03 /* dukeLifeTests.swift */,
+				19A8690E25363EA100F92B03 /* Info.plist */,
+			);
+			path = dukeLifeTests;
+			sourceTree = "<group>";
+		};
+		19A8691625363EA100F92B03 /* dukeLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19A8691725363EA100F92B03 /* dukeLifeUITests.swift */,
+				19A8691925363EA100F92B03 /* Info.plist */,
+			);
+			path = dukeLifeUITests;
+			sourceTree = "<group>";
+		};
+		3C979EDF290D63C789AFA165 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69BEB218D402AEF2BCBCE99D /* Pods-dukeLife.debug.xcconfig */,
+				DCE59D4B76501396AB1F1568 /* Pods-dukeLife.release.xcconfig */,
+				8E82B020950DE4A6D4F6B6A2 /* Pods-dukeLife-dukeLifeUITests.debug.xcconfig */,
+				EF5791FEDBA45CFFD85B261E /* Pods-dukeLife-dukeLifeUITests.release.xcconfig */,
+				430AC6642EE2EC0CD97443F8 /* Pods-dukeLifeTests.debug.xcconfig */,
+				AF58592D4D783B4BDCA53C7F /* Pods-dukeLifeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A868F125363EA000F92B03 /* dukeLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A8691C25363EA100F92B03 /* Build configuration list for PBXNativeTarget "dukeLife" */;
+			buildPhases = (
+				F0708C9E23DBAC06166384CC /* [CP] Check Pods Manifest.lock */,
+				19A868EE25363EA000F92B03 /* Sources */,
+				19A868EF25363EA000F92B03 /* Frameworks */,
+				19A868F025363EA000F92B03 /* Resources */,
+				6FD03F7E5DBFD4A36E55F2A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dukeLife;
+			productName = dukeLife;
+			productReference = 19A868F225363EA000F92B03 /* dukeLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19A8690725363EA100F92B03 /* dukeLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A8691F25363EA100F92B03 /* Build configuration list for PBXNativeTarget "dukeLifeTests" */;
+			buildPhases = (
+				F5D7020B3C9F491FCCF83331 /* [CP] Check Pods Manifest.lock */,
+				19A8690425363EA100F92B03 /* Sources */,
+				19A8690525363EA100F92B03 /* Frameworks */,
+				19A8690625363EA100F92B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A8690A25363EA100F92B03 /* PBXTargetDependency */,
+			);
+			name = dukeLifeTests;
+			productName = dukeLifeTests;
+			productReference = 19A8690825363EA100F92B03 /* dukeLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19A8691225363EA100F92B03 /* dukeLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A8692225363EA100F92B03 /* Build configuration list for PBXNativeTarget "dukeLifeUITests" */;
+			buildPhases = (
+				05D80764199EED387DFF7E46 /* [CP] Check Pods Manifest.lock */,
+				19A8690F25363EA100F92B03 /* Sources */,
+				19A8691025363EA100F92B03 /* Frameworks */,
+				19A8691125363EA100F92B03 /* Resources */,
+				B9273E436DD4F83F774813EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A8691525363EA100F92B03 /* PBXTargetDependency */,
+			);
+			name = dukeLifeUITests;
+			productName = dukeLifeUITests;
+			productReference = 19A8691325363EA100F92B03 /* dukeLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A868EA25363EA000F92B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					19A868F125363EA000F92B03 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					19A8690725363EA100F92B03 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 19A868F125363EA000F92B03;
+					};
+					19A8691225363EA100F92B03 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 19A868F125363EA000F92B03;
+					};
+				};
+			};
+			buildConfigurationList = 19A868ED25363EA000F92B03 /* Build configuration list for PBXProject "dukeLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A868E925363EA000F92B03;
+			productRefGroup = 19A868F325363EA000F92B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A868F125363EA000F92B03 /* dukeLife */,
+				19A8690725363EA100F92B03 /* dukeLifeTests */,
+				19A8691225363EA100F92B03 /* dukeLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A868F025363EA000F92B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A8690225363EA100F92B03 /* LaunchScreen.storyboard in Resources */,
+				19A868FF25363EA100F92B03 /* Assets.xcassets in Resources */,
+				19A868FD25363EA000F92B03 /* Main.storyboard in Resources */,
+				19453D83255A253A00130517 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8690625363EA100F92B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8691125363EA100F92B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D80764199EED387DFF7E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dukeLife-dukeLifeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FD03F7E5DBFD4A36E55F2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dukeLife/Pods-dukeLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dukeLife/Pods-dukeLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukeLife/Pods-dukeLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9273E436DD4F83F774813EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dukeLife-dukeLifeUITests/Pods-dukeLife-dukeLifeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dukeLife-dukeLifeUITests/Pods-dukeLife-dukeLifeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dukeLife-dukeLifeUITests/Pods-dukeLife-dukeLifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0708C9E23DBAC06166384CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dukeLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D7020B3C9F491FCCF83331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dukeLifeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A868EE25363EA000F92B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EB0E2C25549781007F4865 /* addPlaceTableViewController.swift in Sources */,
+				1935C3DF25433D09003A8EA4 /* studentLogInViewController.swift in Sources */,
+				192A7D99255238BB0083309D /* guestImageCollectionViewController.swift in Sources */,
+				19A868FA25363EA000F92B03 /* ViewController.swift in Sources */,
+				196E1547254732CF009EA3AB /* guestMapViewController.swift in Sources */,
+				19DFE5DA255C6A950005CB82 /* addPlaceTableViewCell.swift in Sources */,
+				196E1542254732B5009EA3AB /* guestPlaceDetailViewController.swift in Sources */,
+				1935C3E925433D24003A8EA4 /* studentSignUpViewController.swift in Sources */,
+				19C81BBB2545FF200016E6C2 /* commentTableViewCell.swift in Sources */,
+				AC549F0825510D700027D883 /* CollectionViewCell.swift in Sources */,
+				196E153D254732A8009EA3AB /* guestProfileViewController.swift in Sources */,
+				19A868F625363EA000F92B03 /* AppDelegate.swift in Sources */,
+				1935C3EE25433D2F003A8EA4 /* guestSignUpViewController.swift in Sources */,
+				19578D85255CAD67003F1152 /* ScrollViewController.swift in Sources */,
+				19A868F825363EA000F92B03 /* SceneDelegate.swift in Sources */,
+				1935C3F8254346ED003A8EA4 /* Place.swift in Sources */,
+				1935C3E425433D17003A8EA4 /* guestLogInViewController.swift in Sources */,
+				1935C3F32543442C003A8EA4 /* launchViewController.swift in Sources */,
+				1935C4B02543BAD6003A8EA4 /* studentPlaceDetailViewController.swift in Sources */,
+				19578D8A255CB02F003F1152 /* navigationViewController.swift in Sources */,
+				19C81BC02545FFE80016E6C2 /* Comment.swift in Sources */,
+				19C81BD62546205C0016E6C2 /* studentProfileViewController.swift in Sources */,
+				195C11902549F93700DBAF49 /* studentImageCollectionViewController.swift in Sources */,
+				19C81BCB254605A50016E6C2 /* userProfileViewController.swift in Sources */,
+				1935C49B254382FE003A8EA4 /* placeTableViewCell.swift in Sources */,
+				1935C402254347BB003A8EA4 /* Address.swift in Sources */,
+				19EB0E362554A122007F4865 /* addDetailViewController.swift in Sources */,
+				1935C3FD2543477C003A8EA4 /* Coordinates.swift in Sources */,
+				1935C4A5254389D7003A8EA4 /* studentMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8690425363EA100F92B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A8690D25363EA100F92B03 /* dukeLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A8690F25363EA100F92B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A8691825363EA100F92B03 /* dukeLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A8690A25363EA100F92B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A868F125363EA000F92B03 /* dukeLife */;
+			targetProxy = 19A8690925363EA100F92B03 /* PBXContainerItemProxy */;
+		};
+		19A8691525363EA100F92B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A868F125363EA000F92B03 /* dukeLife */;
+			targetProxy = 19A8691425363EA100F92B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19A868FB25363EA000F92B03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A868FC25363EA000F92B03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19A8690025363EA100F92B03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A8690125363EA100F92B03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A8691A25363EA100F92B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A8691B25363EA100F92B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A8691D25363EA100F92B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BEB218D402AEF2BCBCE99D /* Pods-dukeLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dukeLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.cs290.dukeLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19A8691E25363EA100F92B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE59D4B76501396AB1F1568 /* Pods-dukeLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dukeLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.cs290.dukeLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19A8692025363EA100F92B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430AC6642EE2EC0CD97443F8 /* Pods-dukeLifeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dukeLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.cs290.dukeLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dukeLife.app/dukeLife";
+			};
+			name = Debug;
+		};
+		19A8692125363EA100F92B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF58592D4D783B4BDCA53C7F /* Pods-dukeLifeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dukeLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.cs290.dukeLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dukeLife.app/dukeLife";
+			};
+			name = Release;
+		};
+		19A8692325363EA100F92B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E82B020950DE4A6D4F6B6A2 /* Pods-dukeLife-dukeLifeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dukeLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.cs290.dukeLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dukeLife;
+			};
+			name = Debug;
+		};
+		19A8692425363EA100F92B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5791FEDBA45CFFD85B261E /* Pods-dukeLife-dukeLifeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dukeLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.cs290.dukeLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dukeLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A868ED25363EA000F92B03 /* Build configuration list for PBXProject "dukeLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8691A25363EA100F92B03 /* Debug */,
+				19A8691B25363EA100F92B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A8691C25363EA100F92B03 /* Build configuration list for PBXNativeTarget "dukeLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8691D25363EA100F92B03 /* Debug */,
+				19A8691E25363EA100F92B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A8691F25363EA100F92B03 /* Build configuration list for PBXNativeTarget "dukeLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8692025363EA100F92B03 /* Debug */,
+				19A8692125363EA100F92B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A8692225363EA100F92B03 /* Build configuration list for PBXNativeTarget "dukeLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A8692325363EA100F92B03 /* Debug */,
+				19A8692425363EA100F92B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A868EA25363EA000F92B03 /* Project object */;
+}

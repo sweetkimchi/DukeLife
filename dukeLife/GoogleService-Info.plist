@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>310574736639-uaduj2lkcahcqoqo83gsqn4d5c2hniqc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.310574736639-uaduj2lkcahcqoqo83gsqn4d5c2hniqc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHc8Rf6namgBQHsweaQs4sl4y_u1nDFJk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>310574736639</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.duke.cs290.dukeLife</string>
+	<key>PROJECT_ID</key>
+	<string>dukelife-7a495</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dukelife-7a495.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:310574736639:ios:4fd69b9804e9ff657a58ca</string>
+	<key>DATABASE_URL</key>
+	<string>https://dukelife-7a495.firebaseio.com</string>
+</dict>
+</plist>

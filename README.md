@@ -1,0 +1,11 @@
+**DukeLife Overview**
+
+[Duke Life Demo Video](https://drive.google.com/file/d/1oDGzEcRiu41n9WZ_1-oK0F2aQ0hfs9CB/view?usp=sharing)
+
+DukeLife is an iOS mobile application to guide students and visitors around Durham, in order to give them a better sense of life at Duke. DukeLife aims to help people not only assimilate to living at Duke, but also grow out of their bubble and take advantage of all the places Durham has to offer during their 4 years at Duke. Our mobile application includes an interactive map of spots in Durham, which was implemented via MapKit. Users can browse through four categories of places: including food, coffee, bars, and fun. Places are sorted by popularity, which is determined by students at Duke.
+
+As a student, who creates an account with a valid Duke email, you can like, leave comments, and post pictures for certain places, as well as add new spots in the Durham area to the app. In their profile, students can view an archive of places they like, as well as places that other students like in their profiles. As a guest, you have access to the map, places for each category, and pictures and comments left by students. However, guests can’t like, comment, add photos, or request new places, in order for the places and opinions in DukeLife to reflect current students’ preferences– and thus, life at Duke. Guests can save places to their profile to keep an archive of places that they are interested in or would like to visit. For each place in DukeLife, students and guests can view the address, phone number, website, pictures posted by students, number of student likes, and comments left by students. 
+
+DukeLife was implemented via XCode, using Swift, Firebase, MapKit, and the Yelp API to initialize DukeLife with over 200 food, coffee, bars, and fun places in the Durham area. DukeLife also uses the Yelp API to allow students to search for places in Durham, in order to add them to the application. Once requesting a place, we will review it before adding it to the application, in order to avoid inappropriate or spam additions.
+
+Group Members: Abby Mapes, Isabella Geraci, Ji Yun Hyo, Moses Fuego
